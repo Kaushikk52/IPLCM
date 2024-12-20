@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>home</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/mini-logo.jpg" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/agenda.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body style="overflow-x: hidden">
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div class="spinner-grow text-primary" role="status">
+        <img src="img/mini-logo.png" alt="" />
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div
+      class="container-fluid about-mian-container text-white-50 py-2 px-0 d-none d-lg-block"
+    >
+      <div class="row gx-0 align-items-center">
+        <div class="col-md-12 d-flex justify-content-center">
+          <img src="img/top-logo-new.png" alt="" class="py-2" height="90px" />
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg bg-color2 navbar-light sticky-top px-4 px-lg-5"
+    >
+      <a href="index.html" class="navbar-brand d-flex align-items-center">
+        <img src="img/nirav.png" alt="" class="" />
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav mx-auto rounded pe-4 py-3 py-lg-0">
+          <a href="index.html" class="nav-item nav-link text-white active"
+            >Home</a
+          >
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-white"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              About
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="ourSponsors.html"
+                  >Our Sponsors & Partners</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="MediaCentre.html"
+                  >Media Centre</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="aboutprivatelabel.html"
+                  >About Private Label</a
+                >
+              </li>
+              <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              EXHIBIT
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="whyexhibit.html"
+                  >Why Exhibit With Us</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="wantexhibit.html"
+                  >I Want to Exhibit</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="floorPlan.html">Floor Plan</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="ourOffering.html"
+                  >Our Offerings</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="travelInformation.html"
+                  >Venue/Travel
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              CONFERENCE
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="agenda-speakers.html"
+                  >Agenda & Speakers</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              VISIT
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="whyvisit.html">Why Visit</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="visitorRegistration.html"
+                  >I Want to Visit</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="travelInformation.html"
+                  >Venue/Travel
+                </a>
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://online.fliphtml5.com/rtsrz/gkqi/#p=1"
+                  target="_blank"
+                  >Explore 2025 Top Highlights
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <a href="blog.html" class="nav-item nav-link text-white">Blogs</a>
+          <!-- https://wa.me/+918591265745?text=i want to interested in exhibition 2025 -->
+          <a href="contactForm.html" class="nav-item nav-link">Contact</a>
+        </div>
+        <a href="wantexhibit.html" class="btn background1 text-white py-2">
+          Exhibitor Registration</a
+        >
+      </div>
+      <!-- <div id="google_translate_element" class=""></div> -->
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div
+      class="container-fluid page-header py-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <!-- <h1 class="display-4 animated slideInDown mb-4 text-white">Why Exhibit With Us</h1> -->
+        <h1 class="ml1 text-center">
+          <span class="text-wrapper">
+            <span class="line line1"></span>
+            <span class="letters text-white">Agenda<b> & Speakers </b></span>
+            <span class="line line2"></span>
+          </span>
+        </h1>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Day 1 Start -->
+    <div class="bg-color2 py-4 mb-3 d-flex row">
+      <h1 class="text-white text-center wow fadeInDown">
+        DAY 1, 23rd January 2025
+      </h1>
+      <img
+        src="/img/decorations/Vector.svg"
+        class="btn-close-white wow fadeInUp"
+        alt="Underline Decoration"
+        height="15"
+        width="100"
+      />
+    </div>
+
+    <div class="header">
+      <div class="calendar-icon">
+        <i class="far fa-calendar-alt"></i>
+      </div>
+      <h2 class="session-header">THE SESSION WILL INCLUDE:</h2>
+    </div>
+ 
+    <div class="container d-flex col justify-content-center">
+      <div class="category-info col-3">
+        <h3 class="category">Inaugration & Keynote</h3>
+        <p class="date">THURSDAY, 23rd January 2025</p>
+        <p class="time">10:30 - 12:00 AM IST</p>
+      </div>
+
+      <div class="col-7">
+
+        <div class="title-section">
+          <h2 class="subtitle">
+            Overview of market trends and future opportunities in private labeling.
+          </h2>
+        </div>
+  
+        <div class="session-points">
+          <div class="point">
+            <i class="fas fa-chevron-right"></i>
+            <p>
+              Hosting & Initiating the Conference
+            </p>
+          </div>
+          <div class="point">
+            <i class="fas fa-chevron-right"></i>
+            <p>
+              Inaugration Speech
+            </p>
+          </div>
+          <div class="point">
+            <i class="fas fa-chevron-right"></i>
+            <p>
+              Indo-US Ties
+            </p>
+          </div>
+          <div class="point">
+            <i class="fas fa-chevron-right"></i>
+            <p>
+              Food industries FSSAI
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="speakers-section border-bottom border-2 border-dark">
+      <!-- <div class="navigation prev">
+        <button class="nav-button"><i class="fas fa-chevron-left"></i></button>
+      </div> -->
+      <div class="speaker-card">
+        <div class="speaker-image">
+          <img
+            src="/placeholder.svg?height=200&width=200"
+            alt="Aayushi Khandelwal"
+          />
+        </div>
+        <h3>AAYUSHI KHANDELWAL</h3>
+        <p>FOUNDER</p>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-image">
+          <img
+            src="/placeholder.svg?height=200&width=200"
+            alt="Bharat Bhalla"
+          />
+        </div>
+        <h3>BHARAT BHALLA</h3>
+        <p>CO FOUNDER</p>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-image">
+          <img
+            src="/placeholder.svg?height=200&width=200"
+            alt="Bharat Sethi"
+          />
+        </div>
+        <h3>BHARAT SETHI</h3>
+        <p>FOUNDER</p>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-image">
+          <img
+            src="/placeholder.svg?height=200&width=200"
+            alt="Aditya Bagri"
+          />
+        </div>
+        <h3>ADITYA BAGRI</h3>
+        <p>DIRECTOR</p>
+      </div>
+      <!-- <div class="navigation next">
+        <button class="nav-button"><i class="fas fa-chevron-right"></i></button>
+      </div> -->
+    </div> 
+
+    <div class="header mt-5">
+      <div class="calendar-icon">
+        <i class="far fa-calendar-alt"></i>
+      </div>
+      <h2 class="session-header">THE SESSION WILL INCLUDE:</h2>
+    </div>
+
+    <div class="container d-flex col justify-content-center">
+      <div class="category-info col-3">
+        <h3 class="category">Panel Discussion</h3>
+        <p class="date">THURSDAY, 23rd January 2025</p>
+        <p class="time">12:15 - 1:00 PM IST</p>
+      </div>
+
+      <div class="col-7">
+
+        <div class="title-section">
+          <h2 class="subtitle">
+            The Future of Private Label: Opportunity & Trends Shaping the Global Market
+          </h2>
+        </div>
+  
+        <div class="session-points">
+          <div class="point">
+            <i class="fas fa-chevron-right"></i>
+            <p>
+              Challenges and innovations in sustainability across the F&B sector.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="speakers-section border-bottom border-2 border-dark">
+      <!-- <div class="navigation prev">
+        <button class="nav-button"><i class="fas fa-chevron-left"></i></button>
+      </div> -->
+      <div class="speaker-card">
+        <div class="speaker-image">
+          <img
+            src="/placeholder.svg?height=200&width=200"
+            alt="Aayushi Khandelwal"
+          />
+        </div>
+        <h3>AAYUSHI KHANDELWAL</h3>
+        <p>FOUNDER</p>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-image">
+          <img
+            src="/placeholder.svg?height=200&width=200"
+            alt="Bharat Bhalla"
+          />
+        </div>
+        <h3>BHARAT BHALLA</h3>
+        <p>CO FOUNDER</p>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-image">
+          <img
+            src="/placeholder.svg?height=200&width=200"
+            alt="Bharat Sethi"
+          />
+        </div>
+        <h3>BHARAT SETHI</h3>
+        <p>FOUNDER</p>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-image">
+          <img
+            src="/placeholder.svg?height=200&width=200"
+            alt="Aditya Bagri"
+          />
+        </div>
+        <h3>ADITYA BAGRI</h3>
+        <p>DIRECTOR</p>
+      </div>
+      <!-- <div class="navigation next">
+        <button class="nav-button"><i class="fas fa-chevron-right"></i></button>
+      </div> -->
+    </div> 
+
+
+    <div class="header mt-5">
+      <div class="calendar-icon">
+        <i class="far fa-calendar-alt"></i>
+      </div>
+      <h2 class="session-header">THE SESSION WILL INCLUDE:</h2>
+    </div>
+
+    <div class="container d-flex col justify-content-center">
+      <div class="category-info col-3">
+        <h3 class="category">Expert Talk</h3>
+        <p class="date">THURSDAY, 23rd January 2025</p>
+        <p class="time">2:00 - 2:30 PM IST</p>
+      </div>
+
+      <div class="col-7">
+
+        <div class="title-section">
+          <h2 class="subtitle">
+            Healthcare and Pharmaceuticals: Adapting to Consumer-Centric Models
+          </h2>
+        </div>
+  
+        <div class="session-points">
+          <div class="point">
+            <i class="fas fa-chevron-right"></i>
+            <p>
+              How healthcare and pharma industries are evolving to meet consumer needs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="speakers-section border-bottom border-2 border-dark">
+      <!-- <div class="navigation prev">
+        <button class="nav-button"><i class="fas fa-chevron-left"></i></button>
+      </div> -->
+      <div class="speaker-card">
+        <div class="speaker-image">
+          <img
+            src="/placeholder.svg?height=200&width=200"
+            alt="Aayushi Khandelwal"
+          />
+        </div>
+        <h3>AAYUSHI KHANDELWAL</h3>
+        <p>FOUNDER</p>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-image">
+          <img
+            src="/placeholder.svg?height=200&width=200"
+            alt="Bharat Bhalla"
+          />
+        </div>
+        <h3>BHARAT BHALLA</h3>
+        <p>CO FOUNDER</p>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-image">
+          <img
+            src="/placeholder.svg?height=200&width=200"
+            alt="Bharat Sethi"
+          />
+        </div>
+        <h3>BHARAT SETHI</h3>
+        <p>FOUNDER</p>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-image">
+          <img
+            src="/placeholder.svg?height=200&width=200"
+            alt="Aditya Bagri"
+          />
+        </div>
+        <h3>ADITYA BAGRI</h3>
+        <p>DIRECTOR</p>
+      </div>
+      <!-- <div class="navigation next">
+        <button class="nav-button"><i class="fas fa-chevron-right"></i></button>
+      </div> -->
+    </div> 
+
+    <div class="header mt-5">
+      <div class="calendar-icon">
+        <i class="far fa-calendar-alt"></i>
+      </div>
+      <h2 class="session-header">THE SESSION WILL INCLUDE:</h2>
+    </div>
+
+    <div class="container d-flex col justify-content-center">
+      <div class="category-info col-3">
+        <h3 class="category">Fireside Chat</h3>
+        <p class="date">THURSDAY, 23rd January 2025</p>
+        <p class="time">2:45 - 3:15 PM IST</p>
+      </div>
+
+      <div class="col-7">
+
+        <div class="title-section">
+          <h2 class="subtitle">
+            Ayurveda and Natural Products: Scaling Authenticity Globally
+          </h2>
+        </div>
+  
+        <div class="session-points">
+          <div class="point">
+            <i class="fas fa-chevron-right"></i>
+            <p>
+              The potential of Ayurveda in global markets while maintaining authenticity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="speakers-section border-bottom border-2 border-dark">
+      <!-- <div class="navigation prev">
+        <button class="nav-button"><i class="fas fa-chevron-left"></i></button>
+      </div> -->
+      <div class="speaker-card">
+        <div class="speaker-image">
+          <img
+            src="/placeholder.svg?height=200&width=200"
+            alt="Aayushi Khandelwal"
+          />
+        </div>
+        <h3>AAYUSHI KHANDELWAL</h3>
+        <p>FOUNDER</p>
+      </div>
+      <!-- <div class="navigation next">
+        <button class="nav-button"><i class="fas fa-chevron-right"></i></button>
+      </div> -->
+    </div>
+
+    <div class="header mt-5">
+      <div class="calendar-icon">
+        <i class="far fa-calendar-alt"></i>
+      </div>
+      <h2 class="session-header">THE SESSION WILL INCLUDE:</h2>
+    </div>
+
+    <div class="container d-flex col justify-content-center">
+      <div class="category-info col-3">
+        <h3 class="category">Industry Case Study</h3>
+        <p class="date">THURSDAY, 23rd January 2025</p>
+        <p class="time">4:15 - 4:45 PM IST</p>
+      </div>
+
+      <div class="col-7">
+
+        <div class="title-section">
+          <h2 class="subtitle">
+            Cosmetics and Personal Care: Tapping into the Conscious Consumer Market
+          </h2>
+        </div>
+  
+        <div class="session-points">
+          <div class="point">
+            <i class="fas fa-chevron-right"></i>
+            <p>
+              Insights into appealing to eco-conscious consumers in cosmetics and personal care.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="speakers-section border-bottom border-2 border-dark">
+      <!-- <div class="navigation prev">
+        <button class="nav-button"><i class="fas fa-chevron-left"></i></button>
+      </div> -->
+      <div class="speaker-card">
+        <div class="speaker-image">
+          <img
+            src="/placeholder.svg?height=200&width=200"
+            alt="Aayushi Khandelwal"
+          />
+        </div>
+        <h3>AAYUSHI KHANDELWAL</h3>
+        <p>FOUNDER</p>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-image">
+          <img
+            src="/placeholder.svg?height=200&width=200"
+            alt="Bharat Bhalla"
+          />
+        </div>
+        <h3>BHARAT BHALLA</h3>
+        <p>CO FOUNDER</p>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-image">
+          <img
+            src="/placeholder.svg?height=200&width=200"
+            alt="Bharat Sethi"
+          />
+        </div>
+        <h3>BHARAT SETHI</h3>
+        <p>FOUNDER</p>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-image">
+          <img
+            src="/placeholder.svg?height=200&width=200"
+            alt="Aditya Bagri"
+          />
+        </div>
+        <h3>ADITYA BAGRI</h3>
+        <p>DIRECTOR</p>
+      </div>
+      <!-- <div class="navigation next">
+        <button class="nav-button"><i class="fas fa-chevron-right"></i></button>
+      </div> -->
+    </div> 
+
+    <div class="container d-flex col justify-content-center mt-5">
+      <div class="category-info col-3">
+        <h3 class="category">END OF DAY 1</h3>
+        <p class="date">THURSDAY, 23rd January 2025</p>
+        <p class="time">5:00 PM IST</p>
+      </div>
+
+      <div class="col-7">
+  
+        <div class="session-points">
+          <div class="point">
+            <i class="fas fa-chevron-right"></i>
+            <p>
+              Understanding FSSAI Compliance for Food and Beverage Brands
+            </p>
+          </div>
+          <div class="point">
+            <i class="fas fa-chevron-right"></i>
+            <p>
+              Sustainability in Food & Beverages: From Sourcing to Packaging
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Day 1 End -->
+
+    <!-- Day 2 Start -->
+    <div class="bg-color2 py-4 mb-3 d-flex row">
+      <h1 class="text-white text-center wow fadeInDown">
+        DAY 2, 24rd January 2025
+      </h1>
+      <img
+        src="/img/decorations/Vector.svg"
+        class="btn-close-white wow fadeInUp"
+        alt="Underline Decoration"
+        height="15"
+        width="100"
+      />
+    </div>
+
+
+
+    <!-- Day 2 End -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="img/nirav.png" alt="IPLCMConnect Logo" class="logo" />
+          <p class="tagline">ONE PLATFORM. INFINITE OPPORTUNITIES.</p>
+          <p class="description">
+            ASIA'S LARGEST PLATFORM CONNECTING BUYERS WITH SELLERS FROM THE FMCG
+            PRIVATE LABEL & CONTRACT MANUFACTURING INDUSTRY.
+          </p>
+
+          <div class="footer-newsletter">
+            <h5 class="text-light mb-2">Contact Details</h5>
+            <hr />
+            <p class="mb-0">International Bookings & Registrations</p>
+            <p class="mb-0">Jacqueline Sonawane</p>
+            <p class="mb-0">
+              <i class="fa fa-phone-alt me-3"></i> +91 9820109077
+            </p>
+
+            <hr />
+            <p class="mb-0">Domestic Bookings & Registrations</p>
+            <p class="mb-0">Kareena Chauhan</p>
+            <p class="mb-0">
+              <i class="fa fa-phone-alt me-3"></i> +91 8855980527
+            </p>
+            <p class="mb-0">
+              <i class="fa fa-envelope me-3"></i> sales@iplcmexpo.com
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h3 class="mt-5">QUICK LINKS</h3>
+          <ul>
+            <li><a href="#">EXHIBITOR INTEREST FORM</a></li>
+            <li><a href="#">VISITOR REGISTRATION FORM</a></li>
+            <li><a href="#">PROPEL AWARDS 2025</a></li>
+            <li><a href="#">PHOTO GALLERY</a></li>
+            <li><a href="#">KNOWLEDGE SERIES</a></li>
+            <li><a href="#">INDUSTRY SPEAKS</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3 class="mt-5">SHOW DATES</h3>
+
+          <p class="mb-0">23RD JANUARY 2025</p>
+          <p class="mb-3">(10:00 AM - 6:00 PM)</p>
+
+          <p class="mb-0">24TH JANUARY 2025</p>
+          <p class="mb-3">(10:00 AM - 6:00 PM)</p>
+
+          <p class="mb-0">25TH JANUARY 2025</p>
+          <p class="mb-0">(10:00 AM - 5:00 PM)</p>
+        </div>
+
+        <div class="footer-newsletter mt-4">
+          <div class="footer-newsletter">
+            <h5 class="text-light mb-2">Address</h5>
+            <p>
+              <i class="fa fa-map-marker-alt me-3"></i>OFFICE 103, 1st FLOOR
+              KULKARNI HOUSE, GHANTALI DEVI ROAD, NAUPADA, THANE (W)
+              PIN CODE : 400602
+            </p>
+          </div>
+          <hr />
+
+          <h3>NEWSLETTERS</h3>
+          <p>
+            Subscribe to our Newsletter: Stay updated with the latest happenings
+            and product innovation in the CPG Private Label Industry
+          </p>
+          <form class="newsletter-form">
+            <input type="text" placeholder="Name" required />
+            <input type="email" placeholder="Email" required />
+            <input type="tel" placeholder="Mobile" required />
+            <button type="submit">I'M IN</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 IPLCM EXPO</p>
+        <p>
+          All Rights Reserved. Cookies Policy | Privacy Policy | T & C | IPLCM
+          Industry Insights
+        </p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <div class="whatsapp_float shake">
+      <a
+        href="https://wa.me/+918591265745?text=i want to interested in exhibition 2025"
+        target="_blank"
+        class="element"
+        ><img src="img/whatsappLogo.png" class="whatsapp_float_btn" />
+      </a>
+    </div>
+
+    <div class="float-btn-container shake">
+      <div class="">
+        <a
+          href="visitorRegistration.html"
+          class="float-btn-visitor phone-view-float"
+          >Visitor Registration<i
+            class="fas fa-arrow-right ms-2 animated-arrow nirav"
+          ></i
+        ></a>
+      </div>
+    </div>
+
+    <div class="float-btn-container2 shake">
+      <div class="">
+        <a href="contactForm.html" class="float-btn-visitor"
+          >Conference Registration<i
+            class="fas fa-arrow-right ms-2 animated-arrow nirav"
+          ></i
+        ></a>
+      </div>
+    </div>
+
+    <!-- Back to Top -->
+    <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a> -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- text animation  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/animation.js"></script>
+  </body>
+</html>
