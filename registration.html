@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>About Private Label</title>
+    <title>Conference Registration</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
 </head>
 
 <body>
@@ -40,7 +41,7 @@
     </div>
     <!-- Spinner End -->
 
-    <!-- <!-- <div class="cursor"</div> --> -->
+    <!-- <div class="cursor"</div> -->
 
     <!-- Topbar Start -->
     <div class="container-fluid about-mian-container text-white-50 py-2 px-0 d-none d-lg-block">
@@ -216,13 +217,13 @@
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5  wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <!-- <h1 class="display-4 animated slideInDown mb-4 text-white">Why Exhibit With Us</h1> -->
             <h1 class="ml1 text-center">
                 <span class="text-wrapper">
                     <span class="line line1"></span>
-                    <span class="letters text-white">About Private <b> Label ME</b></span>
+                    <span class="letters text-white">Write <b class=""> Us Message</b></span>
                     <span class="line line2"></span>
                 </span>
             </h1>
@@ -233,266 +234,205 @@
     <!-- Page Header End -->
 
 
-    <!-- about section  -->
 
-    <div class="container-fulid py-5   ">
-        <div class="container ">
+    <div class="about-mian-container ">
 
+        <div class="container d-flex justify-content-center mb-5">
             <div class="row">
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="text-center">
-                        <img src="img/Private-Label-side-img.png" alt="" class="img-fluid">
+                <!-- Contact Form -->
+                <div class="mt-5 col-lg-8 mb-4">
+                    <div class="card p-4">
+                        <h3 class="mb-4">Registration</h3>
+                        <form id="contactForm">
+                            <div class="d-flex justify-content-start row">
+                                <div class="col-10  mb-3">
+                                    <label for="companyName" class="form-label">Company Name : </label>
+                                    <input type="text" class="form-control" id="companyName" required>
+                                </div>
+                                <div class="col-10 mb-3">
+                                    <label for="authName" class="form-label">Authorized Person Name : </label>
+                                    <input type="text" class="form-control" id="authName" required>
+                                </div>
+                                <div class="col-10 mb-3">
+                                  <label for="designation" class="form-label">Designation : </label>
+                                  <input type="text" class="form-control" id="designation" required>
+                              </div>
+                            </div>
+    
+                            <div class="d-flex justify-content-start gap-2">
+                                <div class="col-4 mb-3">
+                                    <label for="email" class="form-label">Email : </label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+    
+                                <div class="col-4 mb-3">
+                                    <label for="phone" class="form-label">Phone : </label>
+                                    <input type="tel" class="form-control" id="phone">
+                                </div>
+
+                                <div class="col-4 mb-3">
+                                  <label for="website" class="form-label">Website : </label>
+                                  <input type="text" class="form-control" id="website">
+                              </div>
+                            </div>
+
+                            <div class="d-flex justify-content-start gap-2">
+                              <div class="col-4 mb-3">
+                                  <label for="city" class="form-label">City : </label>
+                                  <input type="text" class="form-control" id="city" required>
+                              </div>
+  
+                              <div class="col-4 mb-3">
+                                  <label for="pin" class="form-label">Pin Code : </label>
+                                  <input type="text" class="form-control" id="pin">
+                              </div>
+
+                              <div class="col-4 mb-3">
+                                <label for="state" class="form-label">State : </label>
+                                <input type="text" class="form-control" id="state">
+                            </div>
+                          </div>
+
+                          <div class="mb-3">
+                            <label for="message" class="form-label">Looking For : </label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+  
+    
+                            <div class="mb-3">
+                                <label class="form-label">Exhibition : </label>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="sqmt"
+                                                id="sqmt">
+                                            <label class="form-check-label" for="sqmt">
+                                               Sq meter
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="space" id="space">
+                                            <label class="form-check-label" for="space">
+                                               Raw space
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="scheme" id="scheme">
+                                            <label class="form-check-label" for="scheme">
+                                              Shell Scheme
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                            </div>
+
+                            <div class="mb-3">
+                              <label class="form-label">Conference : </label>
+                              <div class="row">
+                                  <div class="col-4">
+                                      <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" value="delegate"
+                                              id="delegate">
+                                          <label class="form-check-label" for="delegate">
+                                            Delegate
+                                          </label>
+                                      </div>
+                                  </div>
+                                  <div class="col-4">
+                                      <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" value="speaker" id="speaker">
+                                          <label class="form-check-label" for="speaker">
+                                             Speaker
+                                          </label>
+                                      </div>
+                                  </div>
+                                  <div class="col-4">
+                                      <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" value="sponser" id="sponser">
+                                          <label class="form-check-label" for="sponser">
+                                            Sponser
+                                          </label>
+                                      </div>
+                                  </div>
+                              </div>
+          
+                          </div>
+
+                          <div class="mb-3">
+                            <label class="form-label">B2B Visitor : </label>
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="buyer"
+                                            id="buyer">
+                                        <label class="form-check-label" for="buyer">
+                                          Buyer
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="dealer" id="dealer">
+                                        <label class="form-check-label" for="dealer">
+                                            Dealer
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="networking" id="networking">
+                                        <label class="form-check-label" for="networking">
+                                          Networking
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                           
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
                     </div>
-
                 </div>
-                <div class="col-lg-8 wow fadeIn" data-wow-delay="0.1s">
-                    <p class="text19 color2">International Private Labelling & Contract Manufacturing (IPLCM) Expo only event where buyers can get
-                        straight to
-                        the source for
-                        cost-effective customisable products, branding & packaging solutions, bringing together food &
-                        and non-food suppliers, private label & contract manufacturers from over 12+ countries across
-                        the globe, all conveniently located under one roof.</p>
-
-                    <p class="text19 color2">Taking place only once a year, the three-day event is endorsed by over
-                        4,000+ visitors from over
-                        12+ countries worldwide with some of the biggest names in the region; Amazon, Carrefour, Aldi,
-                        Nazih Group, Doubletree by Hilton, Lulu Hypermarkets, Emirates Airlines, Landmark Group, Aster
-                        Pharmacy, and many more, making it the only event of its kind for Private Labeling and contract
-                        manufacturing.</p>
-
-
-                    <p class="text19 color2">
-                        The event will see manufacturers on the event floor, exploring opportunities to utilise excess
-                        capacity towards more profitable lines. Whilst, brand owners, category managers, procurement
-                        heads, distributors, traders, buyers, chefs, and other product developers discover thousands of
-                        products to win customers with their own unique brand offerings.
-
-                    </p>
-
+    
+                <!-- Location Cards -->
+                <div class="col-lg-4 mt-5">
+                    <div class="row">
+                        <!-- Delhi Location -->
+                        <div class="col-md-12 mb-4">
+                            <div class="card location-card">
+                                <div class="card-body">
+                                    <h4 class="card-title">IPLCM EXPO</h4>
+                                    <p class="card-text">
+                                        <i class="fas fa-calendar-alt me-2 mb-3"></i> 23-24-25 JANUARY 2025
+                                        <br>
+                                        <i class="fas fa-map-marker-alt me-2"></i> OFFICE 103, 1st FLOOR KULKARNI HOUSE,<br>
+                                         GHANTALI DEVI ROAD, NAUPADA, <br>
+                                         THANE (W) Pincode : 400602 
+                                        <br>
+                                        <i class="fas fa-envelope me-2 mt-3"></i> sales@iplcmexpo.com
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-
-
-            <div class="main-head-container  my-4 text19 text-center">
-                <h4 class="main-head mb-0">
-                    The Region's No. 1 Choice For Private
-                    Label & Contract Manufacturing Sourcing
-                </h4>
-            </div>
-
-
-            <div class="row Private-Label-counting my-5">
-                <div class="col-md-3  col-6 p-0 wow fadeInLeft" data-wow-delay="0.1s">
-                    <img src="img/whyexhibit/why-exhibit-img2.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-md-3 col-6 p-0 fs-5 d-flex justify-content-center align-items-center p-0"
-                    style="background-color: #e6ffe6;">
-                    <div class="">
-                        <h1 class=" mb-0 color2 text-center" data-toggle="counter-up">4000</h1>
-                        <h3 class="color1">Visitors +</h3>
-                    </div>
-
-                </div>
-                <div class="col-md-3  col-6 p-0 wow fadeInLeft" data-wow-delay="0.2s">
-                    <img src="img/whyexhibit/key-resaons-img-1.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-md-3 col-6 p-0 fs-5 d-flex justify-content-center align-items-center "
-                    style="background-color: #fff5e6;">
-                    <div class="">
-                        <h1 class=" mb-0 color2 text-center" data-toggle="counter-up">192</h1>
-                        <h3 class="color1">Private Label Brands +</h3>
-                    </div>
-
-                </div>
-                <div class="col-md-3 col-6 p-0 fs-5 d-flex justify-content-center align-items-center "
-                    style="background-color: #ffe6e6;">
-                    <div class="">
-                        <h1 class=" mb-0 color2 text-center" data-toggle="counter-up"> 100 </h1>
-                        <h3 class="color1">Manufacturers +</h3>
-                    </div>
-
-                </div>
-                <div class="col-md-3 col-6 p-0 wow fadeInLeft" data-wow-delay="0.3s">
-                    <img src="img/whyexhibit/key-resaons-img-2.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-md-3 col-6 p-0 fs-5 d-flex justify-content-center align-items-center"
-                    style="background-color: #e6f2ff;">
-                    <div class="">
-                        <h1 class=" mb-0 color2 text-center" data-toggle="counter-up">12</h1>
-                        <h3 class="color1">Countries +</h3>
-                    </div>
-
-                </div>
-
-                <div class="col-md-3 col-6 p-0 wow fadeInLeft" data-wow-delay="0.4s">
-                    <img src="img/whyexhibit/key-resaons-img-3.jpg" alt="" class="img-fluid">
-                </div>
-
-            </div>
-
-
-
-
-
-
-
-
-
         </div>
     </div>
 
-
-
-    <div class="container-fluid" style="background-color: #e6e6e6;">
-
-        <div class="container">
-            <!-- International Private Labelling & Contract Manufacturing (IPLCM) Expo IN NUMBERS css start  -->
-            <div class="py-5">
-
-                <div class="banner px-5">International Private Labelling & Contract Manufacturing (IPLCM) Expo IN NUMBERS </div>
-
-
-                <div class="row mt-5 g-4">
-                    <div class="col-md-4 wow fadeInRight" data-wow-delay="0.1s">
-                        <div class="label-number-box d-flex flex-column justify-content-center align-items-center">
-                            <div class="">
-                                <p class="num1 mb-1">87%</p>
-                                <p class="text-center text-white label-number-text">Visitors said the show was important
-                                    for sourcing</p>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 wow fadeInRight" data-wow-delay="0.2s">
-                        <div class="label-number-box d-flex flex-column justify-content-center align-items-center">
-                            <div class="">
-                                <p class="num1">73%</p>
-                                <p class="text-center text-white label-number-text">Visitors will re-visit this year</p>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 wow fadeInRight" data-wow-delay="0.3s">
-                        <div class="label-number-box d-flex flex-column justify-content-center align-items-center">
-                            <div class="">
-                                <p class="num1 mb-1">61%</p>
-                                <p class="text-center text-white label-number-text">Visitors from the Middle East
-                                    visited with an intention to buy</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-
-
-        </div>
-
-
-
-        <!-- International Private Labelling & Contract Manufacturing (IPLCM) Expo IN NUMBERS css End  -->
-
+    <!-- Social Links Sidebar -->
+    <div class="social-links">
+        <a href="#" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
     </div>
-
-
-    <!-- Source From Different Products start  -->
-
-
-    <div class="container-fluid Different-products-container">
-        <div class="container py-5">
-            <div class="d-flex justify-content-center">
-                <div class="banner">
-                    Source From Different Products
-                </div>
-            </div>
-
-
-            <div class="py-5">
-                <div class="row g-4 justify-content-center">
-                    <div class="col-md-3 wow fadeInLeft" data-wow-delay="0.1s">
-                        <div class="diff-pro-inner-box">
-                           
-                                <img src="img/food.jpg" alt="" class="img-fluid ">
-                           
-                            <p class="bg-white mb-0">FOOD & BEVERAGE</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 wow fadeInRight" data-wow-delay="0.1s">
-                        <div class="diff-pro-inner-box">
-                           
-                                <img src="img/BEAUTY-PERSONAL-CARE.jpg" alt="" class="img-fluid ">
-                           
-                            <p class="bg-white mb-0">BEAUTY & PERSONAL CARE</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 wow fadeInLeft" data-wow-delay="0.1s">
-                        <div class="diff-pro-inner-box">
-                           
-                                <img src="img/CLEANING.jpg" alt="" class="img-fluid ">
-                           
-                            <p class="bg-white mb-0">CLEANING & HOUSEHOLD</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 wow fadeInRight" data-wow-delay="0.1s">
-                        <div class="diff-pro-inner-box">
-                           
-                                <img src="img/baby-care.jpg" alt="" class="img-fluid ">
-                           
-                            <p class="bg-white mb-0">BABY CARE</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 wow fadeInLeft" data-wow-delay="0.1s">
-                        <div class="diff-pro-inner-box">
-                           
-                                <img src="img/paper.jpg" alt="" class="img-fluid ">
-                           
-                            <p class="bg-white mb-0">PAPER & PLASTIC</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 wow fadeInRight" data-wow-delay="0.1s">
-                        <div class="diff-pro-inner-box">
-                           
-                                <img src="img/HEALTH.jpg" alt="" class="img-fluid ">
-                           
-                            <p class="bg-white mb-0">BABY CARE</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 wow fadeInLeft" data-wow-delay="0.1s">
-                        <div class="diff-pro-inner-box">
-                           
-                                <img src="img/baby-care.jpg" alt="" class="img-fluid ">
-                           
-                            <p class="bg-white mb-0">HEALTH, WELLNESS</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-
-    </div>
-
-
-    <!-- Source From Different Products end   -->
-
-
-
-
-
-
-
-
 
     <!-- Footer Start -->
     <footer class="footer">
@@ -502,14 +442,14 @@
                 <p class="tagline">ONE PLATFORM. INFINITE OPPORTUNITIES.</p>
                 <p class="description">ASIA'S LARGEST PLATFORM CONNECTING BUYERS WITH SELLERS FROM THE FMCG PRIVATE
                     LABEL & CONTRACT MANUFACTURING INDUSTRY.</p>
-                
+
                 <div class="footer-newsletter">
                     <h5 class="text-light mb-2">Contact Details</h5>
                     <hr>
                     <p class="mb-0">International Bookings & Registrations</p>
                     <p class="mb-0">Jacqueline Sonawane</p>
                     <p class="mb-0"><i class="fa fa-phone-alt me-3"></i> +91 9820109077</p>
-                    
+
                     <hr>
                     <p class="mb-0">Domestic Bookings & Registrations</p>
                     <p class="mb-0">Kareena Chauhan</p>
@@ -536,17 +476,17 @@
             </div>
             <div class="footer-links">
                 <h3 class="mt-5">SHOW DATES</h3>
-                
-                 <p class="mb-0">23RD JANUARY 2025</p>
-                 <p class="mb-3">(10:00 AM - 6:00 PM)</p>
-                
-                 <p class="mb-0">24TH JANUARY 2025</p>
-                 <p class="mb-3">(10:00 AM - 6:00 PM)</p>
- 
-                 <p class="mb-0">25TH JANUARY 2025</p>
-                 <p class="mb-0">(10:00 AM - 5:00 PM)</p>
-             </div> 
-             
+
+                <p class="mb-0">23RD JANUARY 2025</p>
+                <p class="mb-3">(10:00 AM - 6:00 PM)</p>
+
+                <p class="mb-0">24TH JANUARY 2025</p>
+                <p class="mb-3">(10:00 AM - 6:00 PM)</p>
+
+                <p class="mb-0">25TH JANUARY 2025</p>
+                <p class="mb-0">(10:00 AM - 5:00 PM)</p>
+            </div>
+
             <div class="footer-newsletter mt-4">
                 <div class="footer-newsletter">
                     <h5 class="text-light mb-2">Address</h5>
@@ -555,7 +495,7 @@
 
                 </div>
                 <hr>
-                
+
                 <h3>NEWSLETTERS</h3>
                 <p>Subscribe to our Newsletter: Stay updated with the latest happenings and product innovation in the
                     CPG Private Label Industry</p>
@@ -585,14 +525,14 @@
 
     <div class=" float-btn-container shake">
         <div class="">
-            <a href="visitorRegistration.html" class="float-btn-visitor  color-changing-element">Visitor
-                Registration</a>
+            <a href="visitorRegistration.html"
+                class="float-btn-visitor phone-view-float  color-changing-element">Visitor Registration</a>
         </div>
     </div>
 
     <div class=" float-btn-container2 shake">
         <div class="">
-            <a href="registration.html" class=" float-btn-visitor color-changing-element">Registration</a>
+            <a href="registration.html" class=" float-btn-visitor color-changing-element">Conference Registration</a>
         </div>
     </div>
 
